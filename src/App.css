@@ -97,7 +97,7 @@
   position: absolute;
   bottom: 40%;
   font-family: 'Press Start 2P', cursive;
-  font-size: calc(15px + 1vw);
+  font-size: calc(10px + 1vw);
 }
 
 @keyframes App-logo-spin {
