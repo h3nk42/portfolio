@@ -77,6 +77,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 2.5vw;
 }
 
 .UpRightDiv {
@@ -90,6 +91,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 2.5vw;
 }
 
 .DownLeftDiv {
@@ -103,6 +105,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 2.5vw;
 }
 
 .DownRightDiv {
@@ -116,6 +119,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 2.5vw;
 }
 
 @keyframes App-logo-spin {
