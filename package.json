@@ -11,7 +11,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-typing-effect": "^2.0.3"
+    "react-snap-scroll": "0.0.5",
+    "react-typing-effect": "^2.0.3",
+    "scroll-snap": "^3.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
