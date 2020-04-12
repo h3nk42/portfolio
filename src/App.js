@@ -1,15 +1,17 @@
-import React , {Component} from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ScrollSnap from "scroll-snap";
 import ReactTypingEffect from 'react-typing-effect';
-import ScrollSnap from 'scroll-snap';
 
 
+function callback() {
+    console.log("snapped");
+}
 
-class App extends Component {
-
-
-
+class App extends React.Component {
+    container = React.createRef();
+    helloRef = React.createRef();
 
 
 
@@ -17,49 +19,84 @@ class App extends Component {
         return (
             <ReactTypingEffect
                 text="Hello. My name is Henk and I study computer science!" //text=["Hello.", "World!"]
-            />
-        );
+            />);
     };
+
+    handleClick(event) {
+        if (this.helloRef && this.helloRef.current) {
+            this.helloRef.current.scrollIntoView();
+        }
+    }
+
+
+    bindScrollSnap () {
+        const element = this.container.current;
+        const snapElement = new ScrollSnap(element, {
+            snapDestinationY: "90%",
+            time: true
+        });
+
+        snapElement.bind(callback);
+    }
+
+    componentDidMount() {
+        this.bindScrollSnap();
+    }
+
     render() {
-
         return (
-
-
-            <div className="App">
-
-                    <header className="App-header">
-                        <div className="UpLeftDiv" >
+            <div id="container" ref={this.container}>
+                <div className="page first-page" id='myTarget'>
+                    <div className='boxes boxesTop'>
+                        <div className='box'>
                             <h1>HENK</h1>
                         </div>
-                        <div className="UpRightDiv" >
-                            <h1>VAN</h1>
+                        <div className='box'>
+
                         </div>
-                        <div className="DownLeftDiv" >
+                        <div className='box'>
                             <h1>DER</h1>
                         </div>
-                        <div className="DownRightDiv" ></div>
-                    </header>
-                      <body className="App-body">
-                          <div className="App-body-NameBlocks">
-                              <div className="UpLeftDiv" > </div>
-                              <div className="UpRightDiv" ></div>
-                              <div className="DownLeftDiv" ></div>
-                              <div className="DownRightDiv" >
-                                  <h1>SLOOT</h1>
-                              </div>
-                          </div>
+                        <div className='box'>
 
-                          <div className='App-body-Text'>
-                              {this.typingEffect()}
-                          </div>
-
-                      </body>
-                    <div className='core' >
-
+                        </div>
                     </div>
 
+                    <div className='boxes'>
+                        <div className='box'>
+
+                        </div>
+                        <div className='box'>
+                            <h1>VAN</h1>
+                        </div>
+                        <div className='box'>
+
+                        </div>
+                        <div className='box'>
+                            <h1>SLOOT</h1>
+                        </div>
+                    </div>
+
+                    <div className="scrolling">
+                        {this.typingEffect()}
+                    </div>
+
+                    <div className="hint">
+                        scroll down!</div>
+                </div>
+                <div className="page second-page">
+                    <div className='scrolling'>II</div>
+                </div>
+                <div className="page third-page">
+                    <div className='scrolling'>III</div>
+                </div>
+                <div ref={this.helloRef} className="page fourth-page">
+                    <div className='scrolling'>IV</div>
+                    <div className="hint"><a className="link" href='#myTarget' >back up!</a></div>
+                </div>
             </div>
-        )};
+        );
+    }
 }
 
 export default App;
