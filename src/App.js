@@ -52,10 +52,10 @@ class App extends React.Component {
                             <h1>HENK</h1>
                         </div>
                         <div className='box'>
-
+                            <h1>VAN</h1>
                         </div>
                         <div className='box'>
-                            <h1>DER</h1>
+
                         </div>
                         <div className='box'>
 
@@ -67,10 +67,10 @@ class App extends React.Component {
 
                         </div>
                         <div className='box'>
-                            <h1>VAN</h1>
+
                         </div>
                         <div className='box'>
-
+                            <h1>DER</h1>
                         </div>
                         <div className='box'>
                             <h1>SLOOT</h1>
