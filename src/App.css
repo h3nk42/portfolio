@@ -41,7 +41,7 @@
 
 .UpLeftDiv {
   background-color: #9198ff;
-  border: 1px solid black;
+
   margin: 10px;
   width: 95%;
   height: 100px;
@@ -54,7 +54,7 @@
 
 .UpRightDiv {
   background-color: #9198ff;
-  border: 1px solid black;
+
   margin: 10px;
   width: 95%;
   height: 100px;
@@ -67,7 +67,7 @@
 
 .DownLeftDiv {
   background-color: #9198ff;
-  border: 1px solid black;
+
   margin: 10px;
   width: 95%;
   height: 100px;
@@ -80,7 +80,7 @@
 
 .DownRightDiv {
   background-color: #9198ff;
-  border: 1px solid black;
+ 
   margin: 10px;
   width: 95%;
   height: 100px;
