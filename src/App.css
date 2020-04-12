@@ -129,6 +129,7 @@
 
 .DownRightDiv {
   background-color: #9198ff;
+  color: bisque;
   font-family: 'Press Start 2P', cursive;
   margin: 10px;
   width: 70%;
@@ -139,7 +140,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 3.5vw;
+  font-size: calc(20px + 3.3vw);
 }
 
 @keyframes App-logo-spin {
