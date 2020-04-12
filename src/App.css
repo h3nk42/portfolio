@@ -14,21 +14,23 @@
 }
 
 .App-header {
- /* background-color: #282c34; */
+  background-color: #282c34;
+
   min-height: 50vh;
   display: flex;
   flex-direction: row;
-  align-items: self-start;
+  align-items: flex-end;
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 .App-body {
-  /* background-color: #282c34; */
+   background-color: #242634;
+
   min-height: 50vh;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
