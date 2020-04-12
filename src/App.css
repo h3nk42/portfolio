@@ -4,6 +4,21 @@
 
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  min-height: 50px;
+  width: 50%;
+  border: 2px solid white;
+
 }
 
 .App-logo {
@@ -18,9 +33,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-
-  min-height: 50vh;
+  border: 1px solid white;
+  height: 200px;
+  width: 99%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -31,17 +46,18 @@
 .App-body {
   background-color: #282c34;
 
-  min-height: 50vh;
+  width: 99%;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 .App-body-NameBlocks {
-  /* border: 3px solid white; */
+  border: 1px solid bisque;
   width: 100%;
-  height: 250px;
+  height: 200px;
 
   display: flex;
   flex-direction: row;
@@ -53,9 +69,9 @@
 
 .App-body-Text {
   font-family: 'Roboto Mono', monospace;
-  /* border: 3px solid white; */
-  width: 100%;
-  height: 100%;
+  border: 1px solid white;
+  width: 70%;
+  height: 25%;
   align-self: center;
   justify-self: center;
 }
@@ -70,8 +86,8 @@
   background-color: #9198ff;
   font-family: 'Baloo Paaji 2', cursive;
   margin: 10px;
-  width: 95%;
-  height: 100px;
+  width: 70%;
+  height: 50%;
 
   display: flex;
   flex-direction: row;
@@ -84,8 +100,8 @@
   background-color: #9198ff;
   font-family: 'Baloo Paaji 2', cursive;
   margin: 10px;
-  width: 95%;
-  height: 100px;
+  width: 70%;
+  height: 50%;
 
   display: flex;
   flex-direction: row;
@@ -98,8 +114,8 @@
   background-color: #9198ff;
   font-family: 'Baloo Paaji 2', cursive;
   margin: 10px;
-  width: 95%;
-  height: 100px;
+  width: 70%;
+  height: 50%;
 
   display: flex;
   flex-direction: row;
@@ -112,8 +128,8 @@
   background-color: #9198ff;
   font-family: 'Baloo Paaji 2', cursive;
   margin: 10px;
-  width: 95%;
-  height: 100px;
+  width: 70%;
+  height: 50%;
 
   display: flex;
   flex-direction: row;
