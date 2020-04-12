@@ -6,16 +6,25 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           ist ein krazzer mofo
-        </p>
-        <a
-          href="https://nohara42.github.io/LauchMarkeLive"
-        >
-          NED
-        </a>
+          <div className="UpLeftDiv" >
+              <h1>HENK</h1>
+          </div>
+          <div className="UpRightDiv" ></div>
+          <div className="DownLeftDiv" >
+              <h1>DER</h1>
+          </div>
+          <div className="DownRightDiv" ></div>
       </header>
+        <body className="App-body">
+        <div className="UpLeftDiv" > </div>
+        <div className="UpRightDiv" >
+            <h1>VAN</h1>
+        </div>
+        <div className="DownLeftDiv" ></div>
+        <div className="DownRightDiv" >
+            <h1>SLOOT</h1>
+        </div>
+        </body>
     </div>
   );
 }

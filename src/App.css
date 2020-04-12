@@ -14,18 +14,81 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ /* background-color: #282c34; */
+  min-height: 50vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: self-start;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-body {
+  /* background-color: #282c34; */
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+
+.UpLeftDiv {
+  background-color: #9198ff;
+  border: 1px solid black;
+  margin: 10px;
+  width: 95%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.UpRightDiv {
+  background-color: #9198ff;
+  border: 1px solid black;
+  margin: 10px;
+  width: 95%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.DownLeftDiv {
+  background-color: #9198ff;
+  border: 1px solid black;
+  margin: 10px;
+  width: 95%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.DownRightDiv {
+  background-color: #9198ff;
+  border: 1px solid black;
+  margin: 10px;
+  width: 95%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
