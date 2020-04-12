@@ -19,7 +19,9 @@ function App() {
           <div className="UpLeftDiv" >
               <h1>HENK</h1>
           </div>
-          <div className="UpRightDiv" ></div>
+          <div className="UpRightDiv" >
+              <h1>VAN</h1>
+          </div>
           <div className="DownLeftDiv" >
               <h1>DER</h1>
           </div>
@@ -28,9 +30,7 @@ function App() {
         <body className="App-body">
             <div className="App-body-NameBlocks">
                 <div className="UpLeftDiv" > </div>
-                <div className="UpRightDiv" >
-                    <h1>VAN</h1>
-                </div>
+                <div className="UpRightDiv" ></div>
                 <div className="DownLeftDiv" ></div>
                 <div className="DownRightDiv" >
                     <h1>SLOOT</h1>
