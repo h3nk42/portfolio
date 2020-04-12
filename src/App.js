@@ -8,7 +8,7 @@ function App() {
     const typingEffect = () => {
         return (
             <ReactTypingEffect
-                text="Hello. My name is Henk." //text=["Hello.", "World!"]
+                text="Hello. My name is Henk and I study computer science!" //text=["Hello.", "World!"]
             />
         );
     };
