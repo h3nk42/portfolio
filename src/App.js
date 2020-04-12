@@ -8,13 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Ned ist ein krazzer mofo
+           ist ein krazzer mofo
         </p>
         <a
-          className="App-link"
-          href="nohara42.github.io/LauchMarkeLive"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://nohara42.github.io/LauchMarkeLive"
         >
           NED
         </a>
