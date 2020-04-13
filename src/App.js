@@ -87,7 +87,7 @@ class App extends React.Component {
                     </div>
 
                     <div className="hint">
-                        scroll down!
+                        
                         </div>
                     <div className='ArrowDown'><ChevronDown></ChevronDown></div>
 
