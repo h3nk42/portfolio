@@ -4,6 +4,11 @@ import './App.css';
 import ScrollSnap from "scroll-snap";
 import ReactTypingEffect from 'react-typing-effect';
 
+import { getRandomColor } from '@bit/joshk.jotils.get-random-color';
+
+import ChevronDown from "./components/DownArrow";
+import {get} from "bit-bin/dist/api/consumer/lib/global-config";
+
 
 function callback() {
     console.log("snapped");
@@ -49,7 +54,7 @@ class App extends React.Component {
                 <div className="page first-page" id='myTarget'>
                     <div className='boxes boxesTop'>
                         <div className='box'>
-                            <h1>HENK</h1>
+                            <h1 style={{color: getRandomColor()} }>HENK</h1>
                         </div>
                         <div className='box'>
 
@@ -82,7 +87,10 @@ class App extends React.Component {
                     </div>
 
                     <div className="hint">
-                        scroll down!</div>
+                        scroll down!
+                        </div>
+                    <div className='ArrowDown'><ChevronDown></ChevronDown></div>
+
                 </div>
                 <div className="page second-page">
                     <div className='scrolling'>II</div>

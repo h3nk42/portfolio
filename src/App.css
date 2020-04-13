@@ -68,6 +68,10 @@
   font-size: 16px;
   font-family: 'Press Start 2P', cursive;
 }
+.ArrowDown {
+  position: absolute;
+  bottom: 3%;
+}
 .boxes{
   display: flex;
   flex-direction: row;
